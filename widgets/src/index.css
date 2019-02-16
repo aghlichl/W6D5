@@ -1,0 +1,61 @@
+h3 {
+  margin: 20px;
+
+}
+
+img{
+  width: 300px;
+}
+
+.clock-container{
+  font-family: 'Roboto Mono', monospace;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+.clock{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;  
+}
+
+.date{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+span{
+  margin: 20px; 
+}
+.root > div{
+  display: flex;
+  /* margin: 0 auto;
+  justify-content: center; */
+
+}
+
+.analog-clock{
+  color: wheat;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+  
+  
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+body{
+  background: url('/frontend/samuel-zeller-242172-unsplash.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
